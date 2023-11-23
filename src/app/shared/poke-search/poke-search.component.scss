@@ -1,0 +1,34 @@
+@import "../../../config-scss/rem-calc.scss";
+@import "../../../config-scss/variable.scss";
+
+:host {
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: rem-calc(100);
+  margin-bottom: -25px;
+  width: 600px;
+  height: 80px;
+  //padding: rem-calc(15) rem-calc(20);
+  background-color: var(--primary-color);
+  border-radius: rem-calc(30);
+
+}
+
+  mat-mdc-text-field-wrapper mdc-text-field ng-tns-c1205077789-0{
+    width: 100%;
+    height: 60px;
+
+
+    label {
+      width: 95%;
+      background: none;
+      border: none;
+
+      font-size: rem-calc(18);
+
+      color: var(--branco);
+    }
+  }
+}
