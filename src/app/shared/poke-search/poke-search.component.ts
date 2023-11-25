@@ -21,13 +21,13 @@ import { PokeApiService } from '../../service/poke-api.service';
 
 @Component({
   selector: 'poke-search',
-  templateUrl: './poke-search.component.html',
+  templateUrl: './poke-search.component.html' ,
   styleUrls: ['./poke-search.component.scss'],
+
 })
 export class PokeSearchComponent implements OnInit {
   selectedPokemon?: string;
   options: DssOptionsInterface[] = [];
-
 
   @Output() public emmitSearch: EventEmitter<string> = new EventEmitter();
 
@@ -65,4 +65,5 @@ export class PokeSearchComponent implements OnInit {
   public search(value: string) {
     this.emmitSearch.emit(value);
   }
+
 }

@@ -31,4 +31,14 @@
       color: var(--branco);
     }
   }
+
+  mat-mdc-select-placeholder {
+    background-color: aqua;
+    color: azure;
+  }
+
+  mat-mdc-select-min-line {
+    background-color: aqua;
+    color: azure;
+  }
 }

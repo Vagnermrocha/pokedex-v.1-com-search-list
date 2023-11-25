@@ -14,6 +14,7 @@ import { PokeApiService } from '../../service/poke-api.service';
 import { ScrollService } from '../../scroll.service';
 
 
+
 @Component({
   selector: 'poke-list',
   templateUrl: './poke-list.component.html',
